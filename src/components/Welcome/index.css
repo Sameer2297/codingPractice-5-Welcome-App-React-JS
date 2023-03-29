@@ -1,0 +1,41 @@
+.container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Bree Serif';
+}
+
+.main-head {
+  color: #f0bb03;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.head {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  color: #1e293b;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .main-head {
+    font-size: 60px;
+  }
+  .head {
+    font-size: 32px;
+  }
+}
